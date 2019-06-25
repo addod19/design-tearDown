@@ -1,0 +1,24 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+header {
+    height: 200px;
+    width: 100%;
+    background: rgb(241, 32, 8);
+    margin-bottom: 5px;
+}
+#main {
+    height: 2700px;
+    width: 100%;
+    background: rgb(122, 18, 4);
+}
+.featured-articles-container {
+    display: grid;
+}
+
+footer {
+    height: 700px;
+    width: 100%;
+    background: rgb(236, 24, 24);
+}
