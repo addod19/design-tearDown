@@ -90,6 +90,9 @@ b {
 #arrow:hover {
     cursor: pointer;
 }
+.anchor-wrap {
+    text-decoration: none;
+}
 #art-pos{
     position: absolute;
     left: 110px;
