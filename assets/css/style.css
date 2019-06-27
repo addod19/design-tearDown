@@ -1,13 +1,21 @@
 html, body {
     margin: 0;
     padding: 0;
+    width: 100%;
+    height: 100%;
+}
+#home {
+    overflow-x: hidden;
 }
 header {
     height: 200px;
     width: 100%;
     background: rgb(241, 32, 8);
     margin-bottom: 0;
-    
+}
+.header-head {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 .container-header {
     display: grid;
@@ -16,7 +24,77 @@ header {
 .logo {
     position: absolute;
     top: 50px;
-    left: 70px;
+    left: 50px;
+}
+.art-head {
+    position: absolute;
+    top: 50px;
+    left: 270px;
+    color: white;
+}
+.head-art{
+    text-align: center;
+    font-size: 24px;
+    font-weight: bolder;
+    font-family: 'Courier New', Courier, monospace;
+}
+.img-art-head {
+    position: relative;
+    left: 60px;
+}
+.art-desc-head {
+    font-size: 17px;
+}
+.art-head2 {
+    position: absolute;
+    top: 50px;
+    left: 450px;
+    color: white;
+}
+.art-head3 {
+    position: absolute;
+    top: 50px;
+    left: 640px;
+    color: white;
+}
+.art-head4 {
+    position: absolute;
+    top: 50px;
+    left: 840px;
+    color: white;
+}
+.art-head5 {
+    position: absolute;
+    top: 50px;
+    left: 1010px;
+    color: white;
+}
+.art-head:hover, .art-head2:hover, .art-head3:hover, .art-head4:hover, .art-head5:hover {
+    color: black;
+    cursor: pointer;
+}
+.topics-icon {
+    width: 100px;
+    height: 20px;
+    padding: 10px;
+    border: 3px solid white;
+    position: absolute;
+    top: 50px;
+    right: 40px;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+}
+
+.topics {
+    position: relative;
+    left: 10px;
+    font-size: 19px;
+    font-weight: bolder;
+    text-transform: capitalize;
+}
+.topics:hover {
+    cursor: pointer;
 }
 #main {
     height: 2700px;
@@ -92,6 +170,46 @@ b {
 }
 .anchor-wrap {
     text-decoration: none;
+}
+.latest-post {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.col-4 {
+    height: 640px;
+    max-width: 450px;
+    background: white;
+    text-align: left;
+    border: 1px solid black;
+}
+.section-para {
+    position: relative;
+    box-sizing: border-box;
+    left: 0;
+    width: 100%;
+    font-size: 24px;
+    padding: 50px;
+}
+.col-4 > .section-container {
+    position: relative;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    hyphens: auto;
+    box-sizing: border-box;
+    top: 60px;
+    left: 0px;
+}
+time {
+    position: relative;
+    left: 50px;
+}
+.section-a {
+    position: relative;
+    left: 50px;
+}
+.section-h4 {
+    position: relative;
+    left: 50px;
 }
 #art-pos{
     position: absolute;
