@@ -42,6 +42,11 @@ header {
     position: relative;
     left: 60px;
 }
+.img-art-head:hover {
+    -ms-transform: rotate(20deg); /* IE 9 */
+    -webkit-transform: rotate(20deg); /* Safari 3-8 */
+    transform: rotate(60deg);
+}
 .art-desc-head {
     font-size: 17px;
 }
@@ -146,6 +151,7 @@ header {
     font-size: 47px;
     font-weight: bolder;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: capitalize;
 }
 .icon-comment {
     position: relative;
@@ -168,6 +174,11 @@ b {
 #arrow:hover {
     cursor: pointer;
 }
+#arrow {
+    position: relative;
+    top: 50%;
+    left: 50%;
+}
 .anchor-wrap {
     text-decoration: none;
 }
@@ -178,9 +189,8 @@ b {
 .col-4 {
     height: 640px;
     max-width: 450px;
-    background: white;
+    background: darkgray;
     text-align: left;
-    border: 1px solid black;
 }
 .section-para {
     position: relative;
@@ -202,6 +212,8 @@ b {
 time {
     position: relative;
     left: 50px;
+    color: #808080;
+    font-size: 17px;
 }
 .section-a {
     position: relative;
@@ -221,6 +233,41 @@ time {
 .featured-article {
     border: 1px solid rgba(156, 133, 133, 0.473);
     height: 700px;
+}
+
+.section-h4, .section-h4 > a {
+    color: #808080;
+    font-weight: bolder;
+    font-size: 18px;
+}
+.sec-header {
+    font-size: 35px;
+    word-wrap: break-word;
+    color: black;
+}
+.section-a {
+    text-decoration-color: black;
+}
+.sec-arrow-container {
+    position: relative;
+    left: 50px;
+    color: red;
+    align-content: center;
+    height: 80px;
+    width: 120px;
+    background: white;
+}
+.sec-arrow-container1 {
+    position: relative;
+    left: 50px;
+    top: 50px;
+    color: red;
+}
+.sec-arrow-container2 {
+    position: relative;
+    left: 50px;
+    top: 50px;
+    color: red;
 }
 footer {
     height: 700px;
