@@ -6,6 +6,7 @@ html, body {
 }
 #home {
     overflow-x: hidden;
+    background: #c0c0c0;
 }
 header {
     height: 200px;
@@ -13,23 +14,49 @@ header {
     background: rgb(241, 32, 8);
     margin-bottom: 0;
 }
-.header-head {
+.logo {
+    position: absolute;
+    top: 50px;
+    left: 10px;
+}
+.soft {
+    background: rgb(141, 5, 12);
+}
+.deep {
+    background: rgb(122, 18, 4);
+}
+.wrapper-a {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+    position: relative;
+    left: 80px;
+    top: 30px;
+    height: 30px;
+    width: 100%;
+}
+.wrapper-a > a {
+    text-decoration: none;
+    color: white;
+}
+.topics-icon {
+    width: 100px;
+    height: 20px;
+    padding: 10px;
+    border: 3px solid white;
+    position: absolute;
+    top: 50px;
+    right: 20px;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
 }
 .container-header {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 }
-.logo {
-    position: absolute;
-    top: 50px;
-    left: 50px;
-}
 .art-head {
-    position: absolute;
-    top: 50px;
-    left: 270px;
+    width: 200px;
     color: white;
 }
 .head-art{
@@ -78,19 +105,6 @@ header {
     color: black;
     cursor: pointer;
 }
-.topics-icon {
-    width: 100px;
-    height: 20px;
-    padding: 10px;
-    border: 3px solid white;
-    position: absolute;
-    top: 50px;
-    right: 40px;
-    border-radius: 5px;
-    color: white;
-    font-size: 16px;
-}
-
 .topics {
     position: relative;
     left: 10px;
@@ -102,9 +116,10 @@ header {
     cursor: pointer;
 }
 #main {
-    height: 2700px;
+    position: relative;
+    height: auto;
     width: 100%;
-    background: rgb(122, 18, 4);
+    background: rgba(119, 122, 122, 0.432);
 }
 .featured-articles-container {
     display: grid;
@@ -112,7 +127,7 @@ header {
 }
 #featured-articles-heading {
     position: absolute;
-    left: 470px;
+    left: 450px;
     width: 400px;
     text-align: center;
     background: white;
@@ -185,11 +200,12 @@ b {
 .latest-post {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    
 }
 .col-4 {
     height: 640px;
     max-width: 450px;
-    background: darkgray;
+    background: #c0c0c0;
     text-align: left;
 }
 .section-para {
@@ -231,7 +247,7 @@ time {
     text-transform: capitalize;
 }
 .featured-article {
-    border: 1px solid rgba(156, 133, 133, 0.473);
+    border: 1px solid rgb(122, 18, 4);
     height: 700px;
 }
 
@@ -269,7 +285,129 @@ time {
     top: 50px;
     color: red;
 }
-footer {
+.col-4-8-container {
+    display: grid;
+    grid-template-columns: 3fr 5fr;
+    height: 700px;
+    width: 100%;
+    background: #c0c0c0;
+}
+
+.four-container {
+    position: relative;
+    left: 30px;
+    width: 80%;
+    height: 80%;
+}
+.eight-container {
+    width: 90%;
+    height: 93.7%;
+    background: rgb(141, 5, 12);
+    border-radius: 10px;
+}
+.con {
+    position: relative;
+    left: 10%;
+    top: 40px;
+    width: 80%;
+    height: 200px;
+    border-radius: 5px;
+    background: cyan;
+    text-align: center;
+}
+.four-head {
+    position: relative;
+    left: 20px;
+}
+.explore {
+    position: relative;
+    left: 25%;
+    top: 30%;
+    width: 50%;
+    height: 30px;
+    background: red;
+    border-radius: 50px; 
+}
+.explore > a {
+    text-decoration: none;
+    position: relative;
+    top: 10%;
+    color: white;
+    font-size: 20px;
+}
+.explore > a:hover {
+    background: white;
+    
+    color: black;
+}
+.jump-stack{
+    display: grid;
+    grid-template-rows: 1fr;
+    height: 800px;
+    width: 100%;
+    background: linear-gradient(pink, blue)
+}
+.top-im {
+    height: 100%;
+    width: 100%;
+    border: 1px solid black;
+}
+.icon-cont {
+    position: relative;   
+}
+.icon-cont > p {
+    text-align: center;
+    color: white;
+    font-size: 1.3em;
+    font-family: sans-serif;
+}
+.icon-cont > a > h1 {
+    text-align: center;
+    color: white;
+}
+.icon-cont > .sign-in {
+    position: relative;
+    bottom: -100px;
+    text-align: center;
+    color: white;
+}
+.icon-cont > .sign-in > #sign {
+    color: white;
+    text-decoration: none;
+}
+.all-articles {
+    position: relative;
+    left: 500px;
+}
+#line {
+    width: 200px;
+    border: 3px solid red;
+}
+.icon-cont > .upcoming-epi {
+    position: relative;
+    bottom: -40px;
+    left: 220px;
+    text-align: center;
+    border: 1px solid white;
+    height: 50px;
+    width: 40%;background: white;
+    color: blue;
+    border-radius: 10px;
+}
+.upcoming-epi > span {
+    position: relative;
+    top: 30%;
+}
+.icon-cont > img {
+    position: relative;
+    top: 20px;
+    left: 25%;  
+}
+.im-cont {
+    position: relative;
+    left: 10%;
+}
+#myfooter {
     height: 700px;
     width: 100%;
     background: rgb(236, 24, 24);
