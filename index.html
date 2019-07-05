@@ -82,6 +82,12 @@
                 </span>
                 <span id="art-pos">articles</span>
             </h1>
+            <div class="seri-icon">
+                <span class="inner-cir"></span>
+            </div>
+            <div class="seriously">
+                <div>seriously, red?</div>
+            </div>
 
             <article class="featured-article deep">
                 <!-- begin article-->
@@ -106,7 +112,7 @@
 
             <article class="featured-article soft">
                 <!-- begin article-->
-                <a href="" class="anchor-wrap">
+                <a href="#" class="anchor-wrap">
                     <div class="article-container">
                         <img src="./assets/images/suz.jpg" height="70" width="70" alt="" />
                         <span class="name">Suzzy Scacca</span>
@@ -126,9 +132,9 @@
                 <!-- end article-->
             </article>
 
-            <article class="featured-article soft">
+            <article class="featured-article soft-one">
                 <!-- begin article-->
-                <a href="" class="anchor-wrap">
+                <a href="#" class="anchor-wrap">
                     <div class="article-container">
                         <img src="./assets/images/gleb.jpg" height="70" width="70" alt="" />
                         <span class="name">Gleb Kutnetsov</span>
@@ -146,9 +152,9 @@
                 </a>
                 <!-- end article-->
             </article>
-            <article class="featured-article deep">
+            <article class="featured-article deep-one">
                 <!-- begin article-->
-                <a href="" class="anchor-wrap">
+                <a href="#" class="anchor-wrap">
                     <div class="article-container">
                         <img src="./assets/images/laura.jpg" height="70" width="70" alt="" />
                         <span class="name">Laura Busche</span>
@@ -175,12 +181,12 @@
                 <div class="section-container">
                     <time> 7 days ago</time>
                     <a href="" class="section-a">
-                        <h2 class="sec-header">Optimizing google font performance</h2>
+                        <h2 class="sec-header">Better Search UX Through Microcopy</h2>
                     </a>
-                    <h4 class="section-h4"> by <a href="#">Danny Cooper</a></h4>
-                    <div class="section-para">Google fonts are easy to implement, but they can have a big impact on your
-                        page load times.
-                        Let's explore how we can load tem in a more optimize way.
+                    <h4 class="head-a-"> by <a href="#">Andrew Millen</a></h4>
+                    <div class="section-para">For large-scale and e-commerce sites, the search experience
+                        is an increasingly critical tool. You can vastly improve the experience for users
+                        with thoughtful microcopy and the right contextualization.
                     </div>
                 </div>
             </section>
@@ -188,11 +194,13 @@
                 <div class="section-container">
                     <time> 7 days ago</time>
                     <a href="" class="section-a">
-                        <h2 class="sec-header">Optimizing google font performance</h2>
+                        <h2 class="sec-header">Build A PWA With Webpack And Workbook</h2>
                     </a>
-                    <h4 class="section-h4"> by <a href="#">Danny Cooper</a></h4>
-                    <div class="section-para">Google fonts are easy to implement, but they can have a big impact on your
-                        page load times.
+                    <h4 class="head-a-"> by <a href="#">John Joubran</a></h4>
+                    <div class="section-para">This tutorial will help you transform an app that doesn't work
+                        offline into a PWA that works offline and shows an update available icon. You'll also
+                        learn how to precache assets with workbox, handle dynamic caching as well as handle 
+                        updates to you....
                     </div>
                 </div>
             </section>
@@ -200,11 +208,12 @@
                 <div class="section-container">
                     <time> 9 days ago</time>
                     <a href="" class="section-a">
-                        <h2 class="sec-header">Optimizing google font performance</h2>
+                        <h2 class="sec-header">The Case For Brand Systems: Aligning Teams Around A Common Story</h2>
                     </a>
-                    <h4 class="section-h4"> by <a href="#">Danny Cooper</a></h4>
-                    <div class="section-para">Google fonts are easy to implement, but they can have a big impact on your
-                        page load times.
+                    <h4 class="head-a-"> by <a href="#">Laura Busche</a></h4>
+                    <div class="section-para">Enter the Brand Systems: a shared library that defines the brand's story,
+                        symbols, and strategy.Learn how Brand Systems can help avoid fragmentation, confusion, and
+                        exclusion within teams.
                     </div>
                 </div>
             </section>
@@ -212,28 +221,27 @@
         </div>
         <div class="col-4-8-container">
             <div class="col-four">
-                <div class="four-container">
-                    <section>
-                        <center><head id="cent-head">our friends and supporters</head></center>
-                        <div class="con">
-                            <span id="control"><img width="200" src="https://smashing-delivery.herokuapp.com/catch?uri=https://res.cloudinary.com/indysigner/image/upload/v1559124022/ads/shutterstock-logo-with-icons.png" alt=""></span><br>
-                            <br><div id="old-bold">Out with the old, in with the bold.It's not stock, it's shutterstock.</div>
-                            <div class="explore"><a href="#" id="explore-fir">explore now!</a></div>
-                        </div>
-                    </section>
-                </div>
+                <section class="four-container">
+                    <center class="cent-head"><head >our friends and supporters</head></center>
+                    <div class="con">
+                        <span id="control"><img width="200" src="https://smashing-delivery.herokuapp.com/catch?uri=https://res.cloudinary.com/indysigner/image/upload/v1559313172/ads/shutterstock-logo-with-icons-white.png" alt=""></span><br>
+                        <br><div id="old-bold">Out with the old, in with the bold.It's not stock, it's shutterstock.</div>
+                        <div class="explore"><a href="#" id="explore-fir">Explore Now!</a></div>
+                    </div>
+                </section>
+               
             </div>
             <div class="col-eight">
                 <div class="eight-container">
                     <div class="icon-cont">
                         <img src="https://d33wubrfki0l68.cloudfront.net/72280e1450d4ecfc45ef96ea00b27b4bf4ef5d06/eb759/images/smashing-cat/cat-smashing-tv-2.svg"
                         alt="" height="250" width="50%"/>
-                        <a href=""><h1>1420 smashing members</h1></a>
+                        <a class="remove-under" href=""><h1>1420 smashing members</h1></a>
                         <p>A channel where seasoned developers show how they design,build,work and play
                             .Coming up next: UX OPtimizations for keyboard-only and assistive technology
                             users withAaron Pearlman (Jul 3)
                         </p>
-                        <div class="upcoming-epi"><span><a href="#">explore features</a></span></div>
+                        <div class="upcoming-epi"><span><a href="#">Explore features</a></span></div>
                         <div class="sign-in"><span>already have an account?<a href="#" id="sign">sign in</a></span></div>
                     </div>
                 </div>
@@ -247,7 +255,7 @@
                     <a href="" class="section-a">
                         <h2 class="sec-header">Optimizing google font performance</h2>
                     </a>
-                    <h4 class="section-h4"> by <a href="#">Danny Cooper</a></h4>
+                    <h4 class="head-a-"> by <a href="#">Danny Cooper</a></h4>
                     <div class="section-para">Google fonts are easy to implement, but they can have a big impact on your
                         page load times.
                         Let's explore how we can load tem in a more optimize way.
@@ -260,7 +268,7 @@
                     <a href="" class="section-a">
                         <h2 class="sec-header">Optimizing google font performance</h2>
                     </a>
-                    <h4 class="section-h4"> by <a href="#">Danny Cooper</a></h4>
+                    <h4 class="head-a-"> by <a href="#">Danny Cooper</a></h4>
                     <div class="section-para">Google fonts are easy to implement, but they can have a big impact on your
                         page load times.
                     </div>
@@ -272,7 +280,7 @@
                     <a href="" class="section-a">
                         <h2 class="sec-header">Optimizing google font performance</h2>
                     </a>
-                    <h4 class="section-h4"> by <a href="#">Danny Cooper</a></h4>
+                    <h4 class="head-a-"> by <a href="#">Danny Cooper</a></h4>
                     <div class="section-para">Google fonts are easy to implement, but they can have a big impact on your
                         page load times.
                     </div>
@@ -288,7 +296,7 @@
                         <a href="" class="section-a">
                             <h2 class="sec-header">Optimizing google font performance</h2>
                         </a>
-                        <h4 class="section-h4"> by <a href="#">Danny Cooper</a></h4>
+                        <h4 class="head-a-"> by <a href="#">Danny Cooper</a></h4>
                         <div class="section-para">Google fonts are easy to implement, but they can have a big impact on your
                             page load times.
                             Let's explore how we can load tem in a more optimize way.
@@ -301,7 +309,7 @@
                     <div class="icon-cont">
                         <img src="https://d33wubrfki0l68.cloudfront.net/72280e1450d4ecfc45ef96ea00b27b4bf4ef5d06/eb759/images/smashing-cat/cat-smashing-tv-2.svg"
                         alt="" height="250" width="50%"/>
-                        <a href=""><h1>New on smashing tv</h1></a>
+                        <a class="remove-under" href=""><h1>New on smashing tv</h1></a>
                         <p>A channel where seasoned developers show how they design,build,work and play
                             .Coming up next: UX OPtimizations for keyboard-only and assistive technology
                             users withAaron Pearlman (Jul 3)
@@ -322,7 +330,7 @@
             <div class="top-im">
                 <center id="center-tag">
                         <div class="comig-up">COMING UP NEXT - JULY 9 - 10</div>
-                        <div id="desc-header"><a href="#">JAMstack_conf_london</a></div>
+                        <div class="desc-header"><a href="#">JAMstack_conf_london</a></div>
                         <p class="word">Serverless! lets explore how to design, build, debug and deploy fast, modern web
                             projects that run on the JAM Stack. Plus practical full-day front-end workshops.
                         </p>
@@ -346,7 +354,7 @@
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident officiis placeat necessitatibus assumenda accusamus ratione amet deserunt ipsam harum facilis beatae corporis deleniti, possimus alias, non sunt nihil laborum vero.
                     </span>
                 </div>
-            </Section><br><br>
+            </Section><br><br><br>
             <section class="others-comm">
                 <article class="other-comm-article">
                     <figure id="my-fig">
@@ -386,7 +394,7 @@
                         </span>
                     </p>
                 </article>
-            </section>
+            </section><br><br>
             <section class="others-comm">
                 <article class="other-comm-article">
                     <figure id="my-fig">
@@ -426,7 +434,7 @@
                         </span>
                     </p>
                 </article>
-            </section>
+            </section><br><br>
             <section class="others-comm">
                 <article class="other-comm-article">
                     <figure id="my-fig">
@@ -485,11 +493,174 @@
                 </div>
             </div>
         </section>
+        <section id="curated-post-id">
+            <div id="curated-post-container">
+                <section id="first-id">
+                    <small>Guides</small><br><br>
+                    <big>New frontend challenges to master</big>
+                    <ul class="dark-ul">
+                        <li><a href="#">css grid layouts</a></li>
+                        <li><a href="#">css grid layouts</a></li>
+                        <li><a href="#">css grid layouts</a></li>
+                        <li><a href="#">css grid layouts</a></li>
+                        <li><a href="#">css grid layouts</a></li>
+                        <li><a href="#">css grid layouts</a></li>
+                        <li><a href="#">css grid layouts</a></li>
+                    </ul>
+                </section>
+                <section id="first-id">
+                    <small>Guides</small><br><br>
+                    <big>Performance optimization and strategies</big>
+                    <ul class="dark-ul">
+                        <li><a href="#">css grid layouts</a></li>
+                        <li><a href="#">css grid layouts</a></li>
+                        <li><a href="#">css grid layouts</a></li>
+                        <li><a href="#">css grid layouts</a></li>
+                        <li><a href="#">css grid layouts</a></li>
+                        <li><a href="#">css grid layouts</a></li>
+                        <li><a href="#">css grid layouts</a></li>
+                    </ul>
+                </section>
+                <section id="first-id">
+                    <small>Guides</small><br><br>
+                    <big>Improving workflow and data protection</big>
+                    <ul class="dark-ul">
+                        <li><a href="#">css grid layouts</a></li>
+                        <li><a href="#">css grid layouts</a></li>
+                        <li><a href="#">css grid layouts</a></li>
+                        <li><a href="#">css grid layouts</a></li>
+                        <li><a href="#">css grid layouts</a></li>
+                        <li><a href="#">css grid layouts</a></li>
+                        <li><a href="#">css grid layouts</a></li>
+                    </ul>
+                </section>
+            </div>
+        </section>
+        <div id="se-container">
+            <section id="continue-curated-post">
+                <div id="cont">
+                    <section id="first-id">
+                        <small>Guides</small><br><br>
+                        <big>Design pattern and checklist</big>
+                        <ul class="dark-ul">
+                            <li><a href="#">css grid layouts</a></li>
+                            <li><a href="#">css grid layouts</a></li>
+                            <li><a href="#">css grid layouts</a></li>
+                            <li><a href="#">css grid layouts</a></li>
+                            <li><a href="#">css grid layouts</a></li>
+                            <li><a href="#">css grid layouts</a></li>
+                            <li><a href="#">css grid layouts</a></li>
+                        </ul>
+                    </section>
+                </div>
+            </section>
+            <section id="continue-icon">
+                <div id="cont">
+                    <h2>Smashing Newsletter</h2>
+                    <p id="imagine">Imagine you wrote a beautiful song and no one discovered it.
+                        That will make any cat sad.
+                    </p>
+                    <img id="img-small" src="https://d33wubrfki0l68.cloudfront.net/ce7741e1659c0366fda51555365194e0bfd136c0/ae578/images/smashing-cat/cat-with-trampet.svg"
+                    alt=""/><br><br>
+                    <div id="input-subscribe">
+                        <input type="text" placeholder="Your (smashing) email" id="text"/>
+                        <button id="sub-btn">subscribe</button>
+                    </div><br>
+                    <div id="newL-">
+                        <span>Useful tips for web designers.Sent 2x a month</span><br>
+                        <span>You can unsubscribe anytime - obviously</span>
+                    </div>
+                </div>
+                <div></div>
+            </section>
+        </div>
+        <div class="space-white">
+            <div id="space-white">
+                <span>See all articles</span>
+                <div class="bar"></div>
+            </div>
+        </div>
         <!-- end main -->
     </main>
     <footer id="myfooter">
         <!-- begin footer-->
+        <div id="footer-container">
+            <div id="browse-smash-magazine">
+                <span>Browse all smashing magazines topics</span>
+            </div>
+            <section id="my-cont" class="my-cont">
+                <ul id="ul-container">
+                    <li><a href="#">Accessibilty</a></li>
+                    <li><a href="#">More</a></li>
+                    <li><a href="#">Android</a></li>
+                    <li><a href="#">Animations</a></li>
+                    <li><a href="#">Apps</a></li>
+                    <li><a href="#">CSS</a></li>
+                    <li><a href="#">Design</a></li>
+                    <li><a href="#">Design Patterns</a></li>
+                    <li><a href="#">E-Commerce</a></li>
+                </ul>
+                <ul id="ul-container">
+                    <li><a href="#">Freebies</a></li>
+                    <li><a href="#">Graphics</a></li>
+                    <li><a href="#">HTML</a></li>
+                    <li><a href="#">Illustrator</a></li>
+                    <li><a href="#">Inspiration</a></li>
+                    <li><a href="#">iOS</a></li>
+                    <li><a href="#">Javascript</a></li>
+                    <li><a href="#">Mobile</a></li>
+                    <li><a href="#">Pattern Libraries</a></li>
+                </ul>
+                <ul id="ul-container">
+                    <li><a href="#">Performance</a></li>
+                    <li><a href="#">Photoshop</a></li>
+                    <li><a href="#">Plugins</a></li>
+                    <li><a href="#">React</a></li>
+                    <li><a href="#">Responsive Web Design</a></li>
+                    <li><a href="#">Service Workers</a></li>
+                    <li><a href="#">Sketch</a></li>
+                </ul>
+                <ul id="ul-container">
+                    <li><a href="#">Typography</a></li>
+                    <li><a href="#">UI</a></li>
+                    <li><a href="#">Usability</a></li>
+                    <li><a href="#">User Experience</a></li>
+                    <li><a href="#">Wallpapers</a></li>
+                    <li><a href="#">Web Design</a></li>
+                    <li><a href="#">WordPress</a></li>
+                    <li><a href="#">Workflow</a></li>
+                </ul>
+            </section>
+            <div id="footer-notes">
+                <p>With a commitment to quality content for the design community</p>
+                <p>Founded by Vitaly Friedman and Sven Lennartz
+                    <span class="lining-figures">2006-2019</span>
+                </p>
+                <p>Smashing is proudly running on
+                    <a id="same-col" href="https://www.netlify.com/?utm_source=link&utm_medium=parter&utm_campaign=sm-footer">Netlify</a>
+                </p>
+                <p>Fonts by
+                    <a id="same-col" href="http://latinotype.com/">Latinotype</a>
+                </p>
+            </div>
+            <ul class="footer-links">
+                <li id="bullet"><a href="#">Write for us</a></li>
+                <li><a href="#">Contact us</a></li>
+                <li><a href="#">About us(Impressum)</a></li>
+                <li><a href="#">Privacy policy</a></li>
+                <li><a href="#">Membership login</a></li>
+                <li><a href="#">Delivery times</a></li>
+                <li><a href="#">Advertise</a></li>
+            </ul>
+        </div>
+        <!--
+            //list contaiers
+            
 
+            //end list
+            
+        -->
+        
         <!-- end footer-->
     </footer>
 </body>
