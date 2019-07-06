@@ -351,7 +351,12 @@ b {
 .desc-header > a {
     color: #fff;
 }
-#sign {
+.mg-h-w {
+    height: 100%;
+    width: 80%;
+}
+#sign,
+#sign1 {
     color: #fff;
     font-size: 1.4em;
 }
@@ -641,11 +646,21 @@ time,
     padding-left: 15%;
     font-size: 1.3em;
 }
-#my-fig {
+#my-fig,
+#my-fig1,
+#my-fig2,
+#my-fig3,
+#my-fig4,
+#my-fig5 {
     display: grid;
     grid-template-columns: 1fr 2fr;
 }
-#other-img {
+#other-img,
+#other-img1,
+#other-img2,
+#other-img3,
+#other-img4,
+#other-img5 {
     height: 100px;
     width: 100px;
     border: 3px solid red;
@@ -737,6 +752,7 @@ p > .time {
     font-size: 1.4em;
 }
 .cent-head {
+    text-align: center;
     color: gray ;
 }
 #feat-sys {
@@ -751,6 +767,8 @@ p > .time {
     top: -40px;
     left: 40px;
     transform: rotate(-10deg);
+    height: 360px;
+    width: 60%;
 }
 #curated-post-id {
     position: relative;
@@ -769,7 +787,10 @@ p > .time {
     margin: 5%;
     height: 400px
 }
-#first-id > big {
+#first-id > h2,
+#first-id1 > h2,
+#first-id2 > h2,
+#first-id3 > h2 {
     font-size: 1.2em;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
@@ -777,7 +798,10 @@ p > .time {
     color: gray;
     font-size: .6em;
 }
-#first-id {
+#first-id,
+#first-id1,
+#first-id2,
+#first-id3 {
     font-size: 1.6em;
 }
 #se-container {
