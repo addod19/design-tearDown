@@ -398,7 +398,7 @@ b {
 }
 .explore-one {
     left: 420px;
-    top: 80px;
+    top: 30px;
     height: 50px;
     width: 500px;
     color: blue;
@@ -559,6 +559,10 @@ time,
 .unique,
 .time-new {
     position: relative;
+}
+.h3-art-head {
+    position: relative;
+    bottom: -25px;
 }
 .unique {
     top: 70px;
@@ -749,6 +753,8 @@ p > .time {
     transform: rotate(-10deg);
 }
 #curated-post-id {
+    position: relative;
+    bottom: 50px;
     display: grid;
     align-self: center;
     height: 650px;
@@ -827,6 +833,7 @@ p > .time {
     height: 50px;
 }
 .space-white {
+    
     height: 300px;
     background: white;
 }
