@@ -4,7 +4,6 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="viewport" http-equiv="X-UA-Compatible" content="ie=edge" />
     <link href="https://use.fontawesome.com/releases/v5.0.7/css/all.css" rel="stylesheet">
     <title>Smashing magazine</title>
     <link rel="stylesheet" href="./assets/css/style.css" />
@@ -12,63 +11,73 @@
 </head>
 
 <body id="home">
-    <header class="main-header block" data-handler="MenuButton">
+    <header >
         <!-- begin header -->
-        <div class="container-header">
-            <div class="header_head" role="navigation">
-                <div class="logo">
-                    <!-- begin logo-->
-                    <a href="#" title="Back to homepage">
-                        <picture>
-                            <source media="(min-width: 1350px)"
-                                srcset="https://d33wubrfki0l68.cloudfront.net/81fa290218cedc39d32be7b1f1aba58a25829ebe/0a05f/images/logo--full.svg">
-                            <img src="https://d33wubrfki0l68.cloudfront.net/3fbf6ef77e5e00aea7a22423087373169b52ae7e/413ff/images/logo/logo.svg"
-                                alt="smashing magazine" height="80px">
-                        </picture>
-                    </a>
-                    <!-- end logo -->
+        <div class="container-header wrapper-a">
+          <div class="logo container-f">
+              <!-- begin logo-->
+              <a href="#" title="Back to homepage">
+                  <picture>
+                      <source media="(min-width: 1350)"
+                          srcset="https://d33wubrfki0l68.cloudfront.net/81fa290218cedc39d32be7b1f1aba58a25829ebe/0a05f/images/logo--full.svg">
+                      <img src="https://d33wubrfki0l68.cloudfront.net/3fbf6ef77e5e00aea7a22423087373169b52ae7e/413ff/images/logo/logo.svg"
+                          alt="smashing magazine" height="80">
+                  </picture>
+              </a>
+              <!-- end logo -->
+          </div>
+          <div class="container-s">
+            <a href="#">
+                <div class="art-head">
+                    <img class="img-art-head" src="./assets/images/article-img.jpg" alt="" />
+                    <div class="head-art">Articles</div>
+                    <div class="art-desc-head">Design and development</div>
                 </div>
-                <div class="wrapper-a">
-                    <a href="#">
-                        <div class="art-head">
-                            <img class="img-art-head" src="./assets/images/article-img.jpg" alt="" />
-                            <div class="head-art">Articles</div>
-                            <div class="art-desc-head">Design and development</div>
-                        </div>
-                    </a>
-                    <a href="#">
-                        <div class="art-head">
-                            <img class="img-art-head" src="./assets/images/books-img.jpg" alt="" />
-                            <div class="head-art">Books</div>
-                            <div class="art-desc-head">Physical and digital books</div>
-                        </div>
-                    </a>
-                    <a href="#">
-                        <div class="art-head">
-                            <img class="img-art-head" src="./assets/images/events-img.jpg" alt="" />
-                            <div class="head-art">Events</div>
-                            <div class="art-desc-head">Conference and workshops</div>
-                        </div>
-                    </a>
-                    <a href="#">
-                        <div class="art-head">
-                            <img class="img-art-head" src="./assets/images/jobs-img.jpg" alt="" />
-                            <div class="head-art">Jobs</div>
-                            <div class="art-desc-head">Find work & employees</div>
-                        </div>
-                    </a>
-                    <a href="#">
-                        <div class="art-head">
-                            <img class="img-art-head" src="./assets/images/membership-img.jpg" alt="" />
-                            <div class="head-art">Membership</div>
-                            <div class="art-desc-head">Webinars & early-birds</div>
-                        </div>
-                    </a>
+            </a>
+          </div>
+          <div class="container-t">
+            <a href="#">
+                <div class="art-head">
+                    <img class="img-art-head" src="./assets/images/books-img.jpg" alt="" />
+                    <div class="head-art">Books</div>
+                    <div class="art-desc-head">Physical and digital books</div>
                 </div>
-                <div class="topics-icon" title="search">
-                    <i class="fas fa-search"></i><span class="topics">topics</span>
+            </a>
+          </div>
+          <div class="container-f">
+            <a href="#">
+                <div class="art-head">
+                    <img class="img-art-head" src="./assets/images/events-img.jpg" alt="" />
+                    <div class="head-art">Events</div>
+                    <div class="art-desc-head">Conference and workshops</div>
                 </div>
-            </div>
+            </a>
+          </div>
+          <div class="container-fv">
+            <a href="#">
+                <div class="art-head">
+                    <img class="img-art-head" src="./assets/images/jobs-img.jpg" alt="" />
+                    <div class="head-art">Jobs</div>
+                    <div class="art-desc-head">Find work & employees</div>
+                </div>
+            </a>
+          </div>
+          <div class="container-si">
+            <a href="#">
+                <div class="art-head">
+                    <img class="img-art-head" src="./assets/images/membership-img.jpg" alt="" />
+                    <div class="head-art">Membership</div>
+                    <div class="art-desc-head">Webinars & early-birds</div>
+                </div>
+            </a>
+          </div>
+          <div class="container-sv">
+            <a href="#">
+              <div class="topics-icon" title="search">
+                  <i class="fas fa-search"></i><span class="topics">topics</span>
+              </div>
+            </a>
+          </div>
         </div>
         <!-- end header -->
     </header>
@@ -93,17 +102,17 @@
                 <!-- begin article-->
                 <a href="" class="anchor-wrap">
                     <div class="article-container">
-                        <img src="./assets/images/laura.jpg" height="70" width="70" alt="" />
-                        <span class="name">Laura Busche</span>
-                        <span class="wrote">wrote</span>
+                        <img class="article-rotate-img" src="./assets/images/laura.jpg" height="70" width="70" alt="" />
+                        <h2 class="name">Laura Busche</h2>
+                        <span class="wrote-unique">wrote</span>
                         <div class="desc">The case for brand systems: Aligning teamsaround A common story</div>
                         <div class="icon-comment"><i class="fas fa-comment-alt"></i><span class="comment"> Leave a
                                 comment</span></div>
-                        <div class="hash-container">
+                        <div class="hash-container unique">
                             <span class="business"><b>#</b> Business</span><sup>283</sup>
                             <span class="business"><b>#</b> Style Guides</span><sup>16</sup>
                             <span class="business"><b>#</b> WorkFlow</span><sup>293</sup>
-                            
+
                         </div>
                     </div>
                 </a>
@@ -114,9 +123,9 @@
                 <!-- begin article-->
                 <a href="#" class="anchor-wrap">
                     <div class="article-container">
-                        <img src="./assets/images/suz.jpg" height="70" width="70" alt="" />
-                        <span class="name">Suzzy Scacca</span>
-                        <span class="wrote">wrote</span>
+                        <img class="article-rotate-img" src="./assets/images/suz.jpg" height="70" width="70" alt="" />
+                        <h2 class="name">Suzzy Scacca</h2>
+                        <span class="wrote-unique">wrote</span>
                         <div class="desc">Design your mobile emails to increase on-site Conversion</div>
                         <div class="icon-comment"><i class="fas fa-comment-alt"></i><span class="comment"> Leave a
                                 comment</span></div>
@@ -124,7 +133,7 @@
                             <span class="business"><b>#</b> Business</span><sup>283</sup>
                             <span class="business"><b>#</b> Style Guides</span><sup>16</sup>
                             <span class="business"><b>#</b> WorkFlow</span><sup>293</sup>
-                            
+
                         </div>
                     </div>
                 </a>
@@ -136,9 +145,9 @@
                 <!-- begin article-->
                 <a href="#" class="anchor-wrap">
                     <div class="article-container">
-                        <img src="./assets/images/gleb.jpg" height="70" width="70" alt="" />
-                        <span class="name">Gleb Kutnetsov</span>
-                        <span class="wrote">wrote</span>
+                        <img class="article-rotate-img" src="./assets/images/gleb.jpg" height="70" width="70" alt="" />
+                        <h2 class="name">Gleb Kutnetsov</h2>
+                        <span class="wrote-unique">wrote</span>
                         <div class="desc">What i learned from designing AR Apps</div>
                         <div class="icon-comment"><i class="fas fa-comment-alt"></i><span class="comment"> Leave a
                                 comment</span></div>
@@ -146,7 +155,7 @@
                             <span class="business"><b>#</b> Business</span><sup>283</sup>
                             <span class="business"><b>#</b> Style Guides</span><sup>16</sup>
                             <span class="business"><b>#</b> WorkFlow</span><sup>293</sup>
-                            
+
                         </div>
                     </div>
                 </a>
@@ -156,17 +165,17 @@
                 <!-- begin article-->
                 <a href="#" class="anchor-wrap">
                     <div class="article-container">
-                        <img src="./assets/images/laura.jpg" height="70" width="70" alt="" />
-                        <span class="name">Laura Busche</span>
-                        <span class="wrote">wrote</span>
+                        <img class="article-rotate-img" src="./assets/images/laura.jpg" height="70" width="70" alt="" />
+                        <h2 class="name">Laura Busche</h2>
+                        <span class="wrote-unique">wrote</span>
                         <div class="desc">The case for brand systems: Aligning teamsaround A common story</div>
                         <div class="icon-comment"><i class="fas fa-comment-alt"></i></i><span class="comment"> Leave a
                                 comment</span></div>
-                        <div class="hash-container">
+                        <div class="hash-container unique">
                             <span class="business"><b>#</b> Business</span><sup>283</sup>
                             <span class="business"><b>#</b> Style Guides</span><sup>16</sup>
                             <span class="business"><b>#</b> WorkFlow</span><sup>293</sup>
-                            
+
                         </div>
                     </div>
                 </a>
@@ -179,7 +188,7 @@
             <!--begin latest-post -->
             <section class="col-4">
                 <div class="section-container">
-                    <time> 7 days ago</time>
+                    <span class="time-new"> 7 days ago</span>
                     <a href="" class="section-a">
                         <h2 class="sec-header">Better Search UX Through Microcopy</h2>
                     </a>
@@ -192,21 +201,21 @@
             </section>
             <section class="col-4">
                 <div class="section-container">
-                    <time> 7 days ago</time>
+                    <span class="time-new"> 7 days ago</span>
                     <a href="" class="section-a">
                         <h2 class="sec-header">Build A PWA With Webpack And Workbook</h2>
                     </a>
                     <h4 class="head-a-"> by <a href="#">John Joubran</a></h4>
                     <div class="section-para">This tutorial will help you transform an app that doesn't work
                         offline into a PWA that works offline and shows an update available icon. You'll also
-                        learn how to precache assets with workbox, handle dynamic caching as well as handle 
+                        learn how to precache assets with workbox, handle dynamic caching as well as handle
                         updates to you....
                     </div>
                 </div>
             </section>
             <section class="col-4">
                 <div class="section-container">
-                    <time> 9 days ago</time>
+                    <span class="time-new"> 9 days ago</span>
                     <a href="" class="section-a">
                         <h2 class="sec-header">The Case For Brand Systems: Aligning Teams Around A Common Story</h2>
                     </a>
@@ -229,7 +238,7 @@
                         <div class="explore"><a href="#" id="explore-fir">Explore Now!</a></div>
                     </div>
                 </section>
-               
+
             </div>
             <div class="col-eight">
                 <div class="eight-container">
@@ -251,7 +260,7 @@
             <!--begin latest-post -->
             <section class="col-4">
                 <div class="section-container">
-                    <time> 7 days ago</time>
+                    <span class="time-new"> 7 days ago</span>
                     <a href="" class="section-a">
                         <h2 class="sec-header">Optimizing google font performance</h2>
                     </a>
@@ -264,7 +273,7 @@
             </section>
             <section class="col-4">
                 <div class="section-container">
-                    <time> 7 days ago</time>
+                    <span class="time-new"> 7 days ago</span>
                     <a href="" class="section-a">
                         <h2 class="sec-header">Optimizing google font performance</h2>
                     </a>
@@ -276,7 +285,7 @@
             </section>
             <section class="col-4">
                 <div class="section-container">
-                    <time> 9 days ago</time>
+                    <span class="time-new"> 9 days ago</span>
                     <a href="" class="section-a">
                         <h2 class="sec-header">Optimizing google font performance</h2>
                     </a>
@@ -292,7 +301,7 @@
             <div class="col-four">
                 <section class="col-4">
                     <div class="section-container">
-                        <time> 7 days ago</time>
+                        <span class="time-new"> 7 days ago</span>
                         <a href="" class="section-a">
                             <h2 class="sec-header">Optimizing google font performance</h2>
                         </a>
@@ -328,13 +337,13 @@
 
         <div class="jump-stack">
             <div class="top-im">
-                <center id="center-tag">
-                        <div class="comig-up">COMING UP NEXT - JULY 9 - 10</div>
+                <section id="center-tag">
+                        <h2 class="comig-up">COMING UP NEXT - JULY 9 - 10</h2>
                         <div class="desc-header"><a href="#">JAMstack_conf_london</a></div>
                         <p class="word">Serverless! lets explore how to design, build, debug and deploy fast, modern web
                             projects that run on the JAM Stack. Plus practical full-day front-end workshops.
                         </p>
-                </center>
+                </section>
                 <div class="explore-one"><a href="#" id="explore">explore all speakers and topics</a></div>
             </div>
             <div class="im-cont">
@@ -342,7 +351,7 @@
                 alt="" height="100%" width="80%"/>
             </div>
         </div>
-        <div class="community-links">           
+        <div class="community-links">
             <Section class="main-community">
                 <img class="rotate-img" src="https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/15cf5524-74db-4a81-a36a-d00f2ddf985c/philip-walton-250px-opt.png"
                 alt="" />
@@ -367,7 +376,7 @@
 
                     </figure>
                     <p>
-                        <time>june 28, 2019</time> - <span>
+                        <span class="time">june 28, 2019</span> - <span>
                             CSS can get unweildly sometimes.
                         subset css helps alleviate this problem by enforcing your css
                         to a predefined amount of values, keeping everyone on the same page
@@ -386,7 +395,7 @@
 
                     </figure>
                     <p>
-                        <time>june 28, 2019</time> - <span>
+                        <span class="time">june 28, 2019</span> - <span>
                             CSS can get unweildly sometimes.
                         subset css helps alleviate this problem by enforcing your css
                         to a predefined amount of values, keeping everyone on the same page
@@ -407,7 +416,7 @@
 
                     </figure>
                     <p>
-                        <time>june 28, 2019</time> - <span>
+                        <span class="time">june 28, 2019</span> - <span>
                             CSS can get unweildly sometimes.
                         subset css helps alleviate this problem by enforcing your css
                         to a predefined amount of values, keeping everyone on the same page
@@ -426,7 +435,7 @@
 
                     </figure>
                     <p>
-                        <time>june 28, 2019</time> - <span>
+                        <span class="time">june 28, 2019</span> - <span>
                             CSS can get unweildly sometimes.
                         subset css helps alleviate this problem by enforcing your css
                         to a predefined amount of values, keeping everyone on the same page
@@ -447,7 +456,7 @@
 
                     </figure>
                     <p>
-                        <time>june 28, 2019</time> - <span>
+                        <span class="time">june 28, 2019</span> - <span>
                             CSS can get unweildly sometimes.
                         subset css helps alleviate this problem by enforcing your css
                         to a predefined amount of values, keeping everyone on the same page
@@ -466,7 +475,7 @@
 
                     </figure>
                     <p>
-                        <time>june 28, 2019</time> - <span>
+                        <span class="time">june 28, 2019</span> - <span>
                             CSS can get unweildly sometimes.
                         subset css helps alleviate this problem by enforcing your css
                         to a predefined amount of values, keeping everyone on the same page
@@ -488,7 +497,7 @@
                     <div id="t-b-contents"><span>table of contents</span></div>
                 </div>
                 <div id="logo-design">
-                    <img id="des-log-img" src="https://res.cloudinary.com/indysigner/image/upload/v1542959380/shop/design-systems-hardcover-book.png" 
+                    <img id="des-log-img" src="https://res.cloudinary.com/indysigner/image/upload/v1542959380/shop/design-systems-hardcover-book.png"
                     alt="" height="360" width="60%"/>
                 </div>
             </div>
@@ -655,12 +664,12 @@
         </div>
         <!--
             //list contaiers
-            
+
 
             //end list
-            
+
         -->
-        
+
         <!-- end footer-->
     </footer>
 </body>
