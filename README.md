@@ -6,3 +6,7 @@ Replicating the [Smashing Magazine Website](https://www.smashingmagazine.com/) u
 
 ### Contributor
 * [Daniel Larbi Addo](https://github.com/addod19)
+
+### Live version
+
+* [Smashing magazine](https://github.com/addod19/design-tearDown/index.html)
