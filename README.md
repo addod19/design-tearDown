@@ -9,4 +9,4 @@ Replicating the [Smashing Magazine Website](https://www.smashingmagazine.com/) u
 
 ### Live version
 
-* [Smashing magazine](https://github.com/addod19/design-tearDown/index.html)
+* [Smashing magazine](https://addod19.github.io/design-tearDown/)
