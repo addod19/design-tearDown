@@ -401,6 +401,10 @@ b {
     background: white;
     color: black;
 }
+.h-250-w-50 {
+    height: 250px;
+    width: 50%;
+}
 .explore-one {
     left: 420px;
     top: 30px;
@@ -454,7 +458,7 @@ b {
     color: white;
 }
 .icon-cont > .sign-in {
-    bottom: -100px;
+    bottom: -10px;
     text-align: center;
     color: white;
 }
@@ -474,7 +478,7 @@ b {
     border: 3px solid red;
 }
 .icon-cont > .upcoming-epi {
-    bottom: -40px;
+    bottom: 0px;
     left: 220px;
     text-align: center;
     border: 1px solid white;
@@ -484,7 +488,9 @@ b {
     border-radius: 10px;
 }
 .remove-under {
-    color:  #666;
+    text-align: center;
+    color:  #fff;
+    font-size: 2.0em;
 }
 .upcoming-epi > span > a:hover {
     cursor: pointer;
@@ -497,6 +503,9 @@ b {
 .img-h-w {
     height: 80%;
     width: 80%;
+}
+.img-min {
+    min-width: 1350px;
 }
 /* DRY CODE HERE => */
 
@@ -919,7 +928,8 @@ p > .time {
     color: #fff;
     font-size: .9em;
 }
-#same-col {
+.same-col,
+.same-col1 {
     color: #fff;
 }
 
