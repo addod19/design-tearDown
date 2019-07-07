@@ -139,7 +139,7 @@ header {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
-#featured-articles-heading {
+.featured-articles-heading {
     left: 450px;
     width: 400px;
     text-align: center;
@@ -494,9 +494,13 @@ b {
     text-decoration: none;
     font-weight: bold;
 }
+.img-h-w {
+    height: 80%;
+    width: 80%;
+}
 /* DRY CODE HERE => */
 
-#featured-articles-heading,
+.featured-articles-heading,
 .seriously,
 .seri-icon,
 #art-pos {
@@ -550,7 +554,9 @@ time,
 #feat-sys,
 #des-log-img,
 #continue-curated-post > #cont,
+#continue-curated-post > #cont1,
 #continue-icon > #cont,
+#continue-icon > #cont1,
 #input-subscribe,
 #space-white,
 .bar,
@@ -559,6 +565,9 @@ time,
 #footer-notes,
 .footer-links,
 #ul-container,
+#ul-container1,
+#ul-container2,
+#ul-container3,
 .container-header,
 .my-cont,
 .unique,
@@ -814,7 +823,8 @@ p > .time {
     height: 100%;
     width: 100%;
 }
-#continue-curated-post > #cont {
+#continue-curated-post > #cont,
+#continue-curated-post > #cont1 {
     left: 10%;
     width: 80%;
     height: 100%;
@@ -823,7 +833,8 @@ p > .time {
     height: 800px;
     width: 100%;
 }
-#continue-icon > #cont {
+#continue-icon > #cont,
+#continue-icon > #cont1 {
     left: 10%;
     width: 80%;
     height: 97.3%;
@@ -912,21 +923,33 @@ p > .time {
     color: #fff;
 }
 
-#ul-container {
+#ul-container,
+#ul-container1,
+#ul-container2,
+#ul-container3 {
     top: 100px;
     display: inline-block;
     font-size: 1.6em;
 }
-#ul-container > li > a {
+#ul-container > li > a,
+#ul-container1 > li > a,
+#ul-container2 > li > a,
+#ul-container3 > li > a {
     color: #fff;
     text-decoration: none;
 }
-#ul-container > li > a:hover {
+#ul-container > li > a:hover,
+#ul-container1 > li > a:hover,
+#ul-container2 > li > a:hover,
+#ul-container3 > li > a:hover {
     color: black;
 }
 #my-cont {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.hidden {
+    display: none;
 }
 
 .list-color {
@@ -935,7 +958,7 @@ p > .time {
 .my-cont {
     top: 50px;
 }
-#myfooter {
+.myfooter {
     height: 900px;
     width: 100%;
     background: #d33a2c;
