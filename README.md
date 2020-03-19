@@ -35,7 +35,7 @@ To get a local copy up and running follow these simple example steps.
 1. ``` git clone https://github.com/addod19/design-tearDown.git ```
 2. Open the index.html with your favorite browser
 3. Explore our site
-4. Make orders
+4. Enjoy the beauty of the design
 
 ### Prerequisites
 
