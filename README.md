@@ -7,6 +7,11 @@
 ## Screenshots
 
 <img src="assets/images/ms.PNG" alt="fist now">
+<img src="assets/images/ms1.PNG" alt="fist now">
+<img src="assets/images/ms2.PNG" alt="fist now">
+<img src="assets/images/ms3.PNG" alt="fist now">
+<img src="assets/images/ms4.PNG" alt="fist now">
+<img src="assets/images/ms5.PNG" alt="fist now">
 
 
 ## Built With
@@ -27,14 +32,17 @@ Replicating the [Smashing Magazine Website](https://www.smashingmagazine.com/) u
 
 To get a local copy up and running follow these simple example steps.
 
-1. ``` git clone https://github.com/addod19/Restaurant-Page.git ```
+1. ``` git clone https://github.com/addod19/design-tearDown.git ```
 2. Open the index.html with your favorite browser
 3. Explore our site
-4. Make orders
+4. Enjoy the beauty of the design
 
 ### Prerequisites
 
 - A modern browser
+
+### Future Update
+Since this is solely a desktop app, in the next version, I would implement the responsiveness of the site. Check out for ```v.1.1```
 
 ## Authors
 
