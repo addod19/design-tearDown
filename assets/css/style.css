@@ -342,6 +342,9 @@ b {
     text-align: center;
     font-size: 2.1em;
 }
+li {
+    list-style: none;
+}
 .dark-ul > li {
     font-size: 1.4em;
 }
@@ -918,6 +921,7 @@ p > .time {
     max-width: 30em;
     font-size: 1.4em;
 }
+
 .footer-links > li{
     text-decoration: none;
     float: left;
