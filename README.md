@@ -1,6 +1,6 @@
 # Design-TearDown 
 
-> This project is a part of series of project to be completed by students of [microverse](micrioverse.org) remote school for softeware developer. This project is a collaborative project but I worked on it alone (for some reason), I designed a replica of the famous [https://www.smashingmagazine.com/](https://www.smashingmagazine.com/) website.
+> This project is a part of series of projects to be completed by students of [microverse](micrioverse.org) remote school for softeware developer and it is a collaborative project but I worked on it alone (for some reason), I designed a replica of the famous [https://www.smashingmagazine.com/](https://www.smashingmagazine.com/) website.
 
 
 
