@@ -1,6 +1,6 @@
 # Design-TearDown 
 
-> This project is a part of series of projects to be completed by students of [microverse](micrioverse.org) remote school for softeware developer and it is a collaborative project but I worked on it alone (for some reason), I designed a replica of the famous [https://www.smashingmagazine.com/](https://www.smashingmagazine.com/) website.
+> This project is a part of series of projects to be completed by students of [microverse](micrioverse.org) remote school for softeware developer. I designed a replica of the famous [https://www.smashingmagazine.com/](https://www.smashingmagazine.com/) website. 
 
 
 
@@ -46,7 +46,7 @@ Since this is solely a desktop app, in the next version, I would implement the r
 
 ## Authors
 
-👤 **Author1**
+👤 **Daniel Larbi Addo**
 
 - Github: [@addod19](https://github.com/addod19)
 - Twitter: [@DanielLarbiAdd1](https://twitter.com/DanielLarbiAdd1)
