@@ -1,6 +1,6 @@
 # Design-TearDown 
 
-> This project is a part of series of projects to be completed by students of [microverse](micrioverse.org) remote school for softeware developer. I designed a replica of the famous [https://www.smashingmagazine.com/](https://www.smashingmagazine.com/) website. 
+> Building a clone of smashingmagazine.com website, aligning all elements with float and flex or grid. 
 
 
 
